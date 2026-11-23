@@ -1,0 +1,71 @@
+/* section is full-bleed (no horizontal margin by default); drop the
+   default 40px vertical section margin so the band sits flush against
+   the content above/below it, matching the source email's tight spacer. */
+.legal-container {
+  margin: 0;
+  background-color: #e3e3e3;
+}
+
+.legal {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.legal-content > div {
+  margin: 0 0 16px;
+}
+
+.legal-content > div:last-child {
+  margin-bottom: 0;
+}
+
+.legal-footnote {
+  font-size: 12px;
+  line-height: 14px;
+  color: #393939;
+}
+
+.legal-footnote p {
+  margin: 0;
+}
+
+.legal-references p {
+  margin: 0 0 8px;
+  font-weight: 700;
+  color: #393939;
+}
+
+.legal-references ol {
+  margin: 0;
+  padding: 0 0 0 32px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #393939;
+}
+
+.legal-legal {
+  font-size: 14px;
+  line-height: 20px;
+  color: #393939;
+}
+
+.legal-legal p {
+  margin: 0 0 8px;
+}
+
+.legal-legal a {
+  color: #006c94;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.legal-logo {
+  text-align: center;
+}
+
+.legal-logo img {
+  display: inline-block;
+  height: 50px;
+  width: auto;
+}
